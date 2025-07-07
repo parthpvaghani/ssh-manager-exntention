@@ -31,7 +31,7 @@ jobs:
           npm install -g vsce
           vsce package
       - name: Upload VSIX Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: github-ssh-user-switcher
           path: "*.vsix"
