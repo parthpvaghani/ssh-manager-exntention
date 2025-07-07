@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+.history/
+
+# Extension packaging
+*.vsix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env 
